@@ -237,7 +237,26 @@ console.log(exercise1(15));
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  if (typeof item === "number") {
+    switch (item) {
+      case 1: 
+        answer9: "You won!";
+        break;
+      case 7:
+        answer9: "You are lucky!";
+        break;
+      case 101: 
+        answer9: "Welcome to coding 101!";
+        break;
+      case 1000000:
+        answer9: "You are one in a million!";
+        break;
+      default:
+        answer9: "Thanks for that!";
+    }
+    } else {
+      answer9 = `Please send a number, that was a ${typeof item}`;
+    }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
@@ -259,7 +278,15 @@ console.log(exercise1(15));
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  if (num10 % 3 === 0) {
+    answer10 = "Fizz";
+  } else if (num10 % 5 === 0) {
+    answer10 = "Buzz";
+  } else if (num10 % 15 === 0) {
+    answer10 = "Fizz Buzz";
+  } else {
+    answer10 = num10;
+  }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
@@ -269,6 +296,6 @@ console.log(exercise1(15));
   // Congrats, you made it to the end! You rock!
   // Did you find this easy or hard? If you used references, which ones helped you?
   // Please answer in a comment below.
-  //
+  // I found I was a little rusty when it came to switch statements but I used MDN to help with the syntax.
   
   // Email your file to us or commit your file to GitHub and email us a link.
