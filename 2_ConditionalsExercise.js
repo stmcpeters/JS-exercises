@@ -153,7 +153,11 @@ console.log(exercise1(15));
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  if (varA === varB && varA != varC) {
+          answer6 = true;
+      } else {
+          answer6 = false;
+      }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
