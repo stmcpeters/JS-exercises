@@ -51,11 +51,11 @@
 // "The value of num1 is <num1 value> and is greater than 10".
 
 function exercise1(num1) {
-    let answer1 = "num1 is small";
+    let answer1 = "num is small";
     // ------------------------------------------
     // Write your code for exercise 1 below here:
     // ------------------------------------------
-  if (num1 > 10){
+if (num1 > 10){
     answer1 = `The value of num1 is ${num1} and is greater than 10`;
   }
     // ------------------------------------------
@@ -63,6 +63,7 @@ function exercise1(num1) {
     // ------------------------------------------
     return answer1;
   }
+console.log(exercise1(15));
   
   // EXERCISE 2.
   // Write an if/else conditional statement that if given a number will assign
@@ -75,7 +76,7 @@ function exercise1(num1) {
   // "4 is even"
   
   function exercise2(num2) {
-    let answer2 = '';
+    let answer2;
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
@@ -104,7 +105,11 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  if(num3 > 0) {
+      answer3 = `${num3} is positive`;
+  } else {
+      answer3 = `${num3} is negative`;
+  }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
@@ -122,7 +127,11 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  if (varA == varB) {
+      answer4 = "varA and varB are equal";
+  } else {
+      answer4 = "varA and varB differ";
+  }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
