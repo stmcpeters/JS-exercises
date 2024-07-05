@@ -127,7 +127,7 @@ console.log(exercise1(15));
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  if (varA == varB) {
+  if (varA === varB) {
       answer4 = "varA and varB are equal";
   } else {
       answer4 = "varA and varB differ";
@@ -142,6 +142,7 @@ console.log(exercise1(15));
   // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
   // seemed like they are equal, but would not pass the tests? In your analysis
   // consider other data types beside strings and variables.
+// If varA = '3' and varB = 3, they could return false even though it's the same, depending on if strict equality === is used because it doesn't use type conversion. Different data types like, objects, arrays, and NaN, could also return false with the same values and not-so-strict equality ==.
   
   // EXERCISE 6.
   // Here, assign the value of true to answer6 if:
