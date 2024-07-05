@@ -182,7 +182,22 @@ console.log(exercise1(15));
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-  
+  switch (num7) {
+    case 1: 
+      answer7: "You won!";
+      break;
+    case 7:
+      answer7: "You are lucky!";
+      break;
+    case 101: 
+      answer7: "Welcome to coding 101!";
+      break;
+    case 1000000:
+      answer7: "You are one in a million!";
+      break;
+    default:
+      answer7: "Thanks for that!";
+  }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
